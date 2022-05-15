@@ -13,270 +13,146 @@
       <header class="header">
         <nav class="nav">
           <img
-            src="./images/logo.png"
-            alt="Practicum Library Logo"
+            src="./images/logo_coffee_shop.svg"
+            alt="Specialty Coffee in Practicum Library Logo"
             class="logo"
           />
           <ul class="nav__links">
             <li>
-              <a class="nav__link" href="#staff-picks">Staff picks</a>
+              <a class="nav__link" href="#menu">Menu</a>
             </li>
             <li>
-              <a class="nav__link" href="#upcoming-events">Events</a>
+              <a class="nav__link" href="#recipes">Recipes</a>
             </li>
             <li>
-              <a class="nav__link" href="#library-member">Become a member</a>
+              <a class="nav__link" href="#bookatable">Book a table</a>
             </li>
             <li>
-              <a class="nav__link" href="#about-library">About</a>
-            </li>
-            <li>
-              <a class="nav__link" href="#footer">Contacts</a>
+              <a class="nav__link" href="#contacts">Contacts</a>
             </li>
           </ul>
         </nav>
-        <h1 class="header__title">Welcome to the Practicum Library</h1>
-        <p class="header__description">
-          We're pleased to open our library doors to everyone! Come and expand
-          your development knowledge, or just use this lovely spot to work or
-          study. This is a cool place for cool students!
+        <h1 class="header__title">Specialty coffee <span style="color:black">in the Practicum Library</span></h1> 
+        <p class="header__link">
+          Welcome to our study zone! We've got the coffee to energize you and 
+          the cozy vibes to help you get creative.
         </p>
         <img
-          src="./images/inside_the_library.png"
-          alt="Illustration 'Inside the library'"
+          src="./images/inside_coffee_shop.png"
+          alt="Illustration 'Inside the coffee shop'"
           class="header__image"
         />
-        <div class="header__footer" id="about-library">
-          <a class="header__link">About the library &darr;</a>
+        <div class="header__footer">
+          <a class="header__link">Hours:</a>
+          <p class="header__hours">
+            Monday - Friday (10:00 - 19:00) 
+            Saturday - Sunday (11:00 - 18:00)
+          </p>
           <p class="header__address">
             200 Success Avenue, The Town of Practicum
           </p>
         </div>
       </header>
       <main class="content">
-        <section class="staff" id="staff-picks">
-          <h2 class="staff__title">Staff picks</h2>
-          <p class="staff__subtitle">That our readers love</p>
-          <ul class="staff__cards">
+        <section class="menu" id="menu">
+          <h2 class="menu__title">Menu</h2>
+          <p class="menu__subtitle">
+            We brew coffee from locally roasted, Fairtrade certified beans and
+            use biodegradable cups. All teas from our collection are $2 cup.
+          </p>
+          <ul class="menu__cards">
             <li class="card">
               <div class="card__content">
-                <h3 class="card__title">Introduction to Algorithms</h3>
+                <h3 class="card__title">Filter</h3>
                 <p class="card__text">
-                  The name of this book is self-explanatory; it's a proper
-                  introduction to algorithms! Introduction to Algorithms, or
-                  CLRS, in reference to the authors' last names, goes in-depth
-                  and covers a range of algorithms across several self-contained
-                  chapters.
+                  Regular (12oz)__________________$1 Large
+                  (16oz)_________________$1.25 XL (20oz)____________________$1.5
+                  Party Size (24oz decaf.)________$1.75 Iced Coffee
+                  (16oz)____________$1.25
                 </p>
-                <p class="card__footer">
-                  Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest,
-                  Clifford Stein
-                </p>
+                <p class="card__footer"></p>
               </div>
             </li>
             <li class="card">
               <div class="card__content">
-                <h3 class="card__title">
-                  The Structure and Interpretation of Computer Programs (SICP)
-                </h3>
+                <h3 class="card__title">Expresso</h3>
                 <p class="card__text">
-                  This is one of the best books for learning the fundamentals of
-                  programming. Featured by MIT in one of their foundational
-                  programming courses, SICP is a general-purpose programming
-                  book that uses Scheme to illustrate various programming
-                  concepts.
+                  Macchiato__________________$2.25 Cortiado
+                  ___________________$2.5 Mocha _____________________$3 Sunrise
+                  in the Bay Area (decaf.)__$10
                 </p>
-                <p class="card__footer">
-                  Harold Abelson, Gerald Jay Sussman, Julie Sussman
-                </p>
+                <p class="card__footer"></p>
               </div>
             </li>
             <li class="card">
               <div class="card__content">
-                <h3 class="card__title">
-                  The Clean Coder: A Code of Conduct for Professional
-                  Programmers
-                </h3>
+                <h3 class="card__title">Baked Goods</h3>
                 <p class="card__text">
-                  Compiled by seasoned software engineer and author Robert C.
-                  Martin (also known as Uncle Bob), this book covers the
-                  techniques and tools of true software craftsmanship. It
-                  explains how to write clean code and demonstrates how to
-                  cultivate the attitude of a skilled, professional programmer.
+                  Almond Croissant______________$2 Banana
+                  Bread______________$1.75 Key Lime Pie__________________$3 Blue
+                  Velvet Cake____________$3.75 Web Cookie___________________$2
+                  Fresh Bug'uette_____________$0.25
                 </p>
-                <p class="card__footer">Steve McConnell</p>
-              </div>
-            </li>
-            <li class="card">
-              <div class="card__content">
-                <h3 class="card__title">
-                  Code Complete: A Practical Handbook of Software Construction
-                </h3>
-                <p class="card__text">
-                  Want to know how to write robust code irrespective of the
-                  architecture behind your chosen programming language? Then
-                  consider reading Code Complete: A Practical Handbook of
-                  Software Construction. It comprehensively covers everything
-                  related to good code structure.
-                </p>
-                <p class="card__footer">Steve McConnell</p>
+                <p class="card__footer"></p>
               </div>
             </li>
           </ul>
         </section>
-        <section class="events" id="upcoming-events">
+        <section class="recipes" id="recipes">
           <div class="events__content">
-            <h2 class="events__heading">Upcoming events:</h2>
-            <h3 class="events__title">
-              In honor of Joan Feynman: Women in astrophysics
+            <h2 class="recipes__heading">Recipes</h2>
+            <h3 class="recipes__title">
+              Check out some recipes we've collected for your home-brewing
+              convenience
             </h3>
-            <div class="event-info events__info-section">
-              <div class="event-info__item">
-                <div
-                  class="event-info__icon event-info__icon_type_calendar"
-                ></div>
-                <p class="event-info__text">Mon, January 12</p>
-              </div>
-              <div class="event-info__item">
-                <div class="event-info__icon event-info__icon_type_pin"></div>
-                <p class="event-info__text">
-                  Practicum Library Conference Hall & Online
-                </p>
-              </div>
-            </div>
-            <p class="events__description">
-              At this event, which celebrates the library's namesake, our guest
-              lecturer will take us on a journey exploring some of the most
-              prominent female researchers in the world of space science. It's
-              easy to buy into the misconception that this field was mostly
-              dominated by men, but our lecture aims to change that notion and
-              prove that this hasn't been the case since at least the 18th
-              century.
-            </p>
-            <a href="#" class="events__more">More events &rarr;</a>
           </div>
           <div class="events__cover">
             <img
-              src="./images/cafe.png"
+              src="./images/background_recipes.svg"
               alt="cafe image"
               class="events__image"
-            />
-            <div class="person person_name_feynman">
-              <p class="person__caption">Joan Feynman</p>
-              <img
-                src="./images/person_feynman.png"
-                alt="cafe image"
-                class="person__image person__image_size_l"
-              />
-            </div>
-            <div class="person person_name_burbidge">
-              <p class="person__caption">Margaret Burbidge</p>
-              <img
-                src="./images/person_burbidge.png"
-                alt="cafe image"
-                class="person__image person__image_size_m"
-              />
-            </div>
-            <div class="person person_name_cannon">
-              <img
-                src="./images/person_cannon.png"
-                alt="cafe image"
-                class="person__image person__image_size_m"
-              />
-              <p class="person__caption">Annie Jump Cannon</p>
-            </div>
-            <div class="person person_name_mitchell">
-              <img
-                src="./images/person_mitchell.png"
-                alt="cafe image"
-                class="person__image person__image_size_s"
-              />
-              <p class="person__caption">Maria Mitchell</p>
-            </div>
-            <div class="person person_name_tarter">
-              <p class="person__caption">Jill Tarter</p>
-              <img
-                src="./images/person_tarter.png"
-                alt="cafe image"
-                class="person__image person__image_size_m"
-              />
+            />           
             </div>
           </div>
         </section>
-        <section class="membership" id="library-member">
-          <h2 class="membership__title">Becoming a library member is easy!</h2>
+        <section class="reservation" id="library-member">
+          <img
+              src="./images/background_reservation.svg"
+              alt="reservation image"
+              class="events__image"
+            />           
+          <h2 class="membership__title">Book a table</h2>
           <ul class="membership__steps">
             <li class="step">
-              <h3 class="step__title">
-                Step 1
-                <img
-                  src="./images/icon_step_forward.svg"
-                  alt="icon forward"
-                  class="step__icon"
-                />
-              </h3>
-              <p class="step__description">
-                Fill out the membership form online or in person.
-              </p>
-            </li>
-            <li class="step">
-              <h3 class="step__title">
-                Step 2
-                <img
-                  src="./images/icon_step_forward.svg"
-                  alt="icon forward"
-                  class="step__icon"
-                />
-              </h3>
-              <p class="step__description">
-                Come pick up your library card at the front desk.
-              </p>
-            </li>
-            <li class="step">
-              <h3 class="step__title">
-                Step 3
-                <img
-                  src="./images/icon_step_forward.svg"
-                  alt="icon forward"
-                  class="step__icon"
-                />
-              </h3>
-              <p class="step__description">Sign the back of the card.</p>
-            </li>
-            <li class="step">
-              <h3 class="step__title">
-                Step 4
-                <img
-                  src="./images/icon_step_finish.svg"
-                  alt="icon finish"
-                  class="step__icon"
-                />
-              </h3>
-              <p class="step__description">
-                Enjoy all the awesome benefits of membership!
-              </p>
+              <form>
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" placeholder="Name Surname"><br><br>
+                <label for="number">Number of guests *</label><br>
+                <input type="number" id="number" name="number" placeholder="1-8"><br><br>
+                <label for="datetime-local">Date & time *</label><br>
+                <input type="datetime-local" id="datetime-local" name="datetime-local"><br><br>
+                <label for="email">Your email *</label><br>
+                <input type="email" id="email" name="email" placeholder="email@email.com"><br><br>
+                <input type="submit" value="Submit"><br><br>
+                <input type="checkbox" id="terms" name="terms" value="terms">
+                <label for="terms"> I agree with the terms of use</label><br>
+              </form>
             </li>
           </ul>
         </section>
         <section class="about">
-          <h2 class="about__title">About the library</h2>
+          <h2 class="about__title">About the coffee shop</h2>
           <div class="about__content">
             <p class="about__paragraph">
-              Libraries are essential establishments in practically every city,
-              and Practicum's library is no exception. It first opened its doors
-              way back in 2018, right as our humble town began bidding welcome
-              to its very first citizens!
+              Our coffee shop is located in the Practicum Library's hall. It features 
+              6 tables and free WiFi.                           
             </p>
             <p class="about__paragraph">
-              Since its initial opening, the library has seen nearly 342
-              visitors each month. That's almost 50% of our population! So far,
-              most citizens have enjoyed reading books and making use of our
-              ample online resources.
+              Our main mission is keeping guests cozy and energized
             </p>
             <p class="about__paragraph">
-              The library gets its name from Joan Feynman, an American
-              astrophysicist and the first woman to be elected as an officer of
-              the American Geophysical Union.
+              Besides that, we try to reduce our environmental impact — so we 
+              don't sell single-use cups. But you can buy one of our reusable cups!
             </p>
           </div>
           <div class="about__circle"></div>
