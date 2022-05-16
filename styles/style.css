@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Noto+Serif+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Noto+Serif+Display&display=swap");
 .page {
   min-height: 1100px;
   max-width: 1600px;
@@ -116,12 +118,6 @@
 .header__address {
   margin: 0;
   color: #838383;
-}
-
-.staff {
-  padding-top: 100px;
-  padding-bottom: 140px;
-  background-color: #f2f2f2;
 }
 
 .menu__title {
@@ -246,46 +242,6 @@
 
 .events__image {
   max-width: 100%;
-}
-
-.person {
-  position: absolute;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.person_name_feynman {
-  top: -30px;
-  left: 319px;
-}
-
-.person_name_burbidge {
-  top: 96px;
-  right: 125px;
-}
-
-.person__image {
-  max-width: 100%;
-}
-
-.person__image_size_l {
-  width: 140px;
-}
-
-.person__image_size_m {
-  width: 100px;
-}
-
-.person__image_size_s {
-  width: 80px;
-}
-
-.person__caption {
-  text-align: center;
-  font-size: 14px;
-  margin: 0;
 }
 
 .reservation {
