@@ -80,9 +80,8 @@
   position: absolute;
   display: flex;
   flex-direction: column;
-  top: 124px;
+  top: 94x;
   right: 5px;
-  max-width: 636px;
   z-index: -1;
   width: 646px;
   height: 568px;
@@ -106,6 +105,7 @@
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
+  max-width: 683px;
 }
 
 .header__link:hover {
@@ -119,6 +119,17 @@
   flex-direction: column;
   left: 80px;
   bottom: 40px;
+  margin-left: 50px;
+}
+
+.header__paragraph {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 0;
+}
 }
 
 .header__address {
@@ -255,6 +266,12 @@
 
 .events__image {
   max-width: 100%;
+  z-index: -1;
+}
+
+.videos {
+  text-align:center;
+  width:100%;
 }
 
 .reservation {
