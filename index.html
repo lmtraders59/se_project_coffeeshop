@@ -65,11 +65,36 @@
             <li class="card">
               <div class="card__content">
                 <h3 class="card__title">Filter</h3>
-                <p class="card__text">
+                <!-- <p class="card__text">
                   Regular (12oz)__________________$1 Large
                   (16oz)_________________$1.25 XL (20oz)____________________$1.5
                   Party Size (24oz decaf.)________$1.75 Iced Coffee
                   (16oz)____________$1.25
+                </p> -->
+                <p class="card__text">
+                  Regular (12oz)
+                  <span ="card__list-divider"></span>
+                  $1
+                </p>
+                <p class="card__text">
+                  Large (16oz)
+                  <span ="card__list-divider"></span>
+                  $1.25
+                </p>
+                <p class="card__text">
+                  XL (20oz)
+                  <span ="card__list-divider"></span>
+                  $1,50
+                </p>
+                <p class="card__text">
+                  Party Size (24oz decaf.)
+                  <span ="card__list-divider"></span>
+                  $1.75
+                </p>
+                <p class="card__text">
+                  Iced Coffee
+                  <span ="card__list-divider"></span>
+                  $1.25
                 </p>
                 <p class="card__footer"></p>
               </div>
@@ -100,43 +125,40 @@
           </ul>
         </section>
         <section class="recipes" id="recipes">
-          <div class="events__content">
-            <h2 class="recipes__heading">Recipes</h2>
-            <h3 class="recipes__title">
-              Check out some recipes we've collected for your home-brewing
-              convenience
-            </h3>
-          </div>
-          <div class="events__cover">
-            <img
-              src="./images/background_recipes.svg"
-              alt="cafe image"
-              class="cafe__image"
-            />
-            <div class="videos">
-              <iframe
-                width="480"
-                height="273"
-                name="Aeropress recipe"
-                src="https://www.youtube.com/embed/j6VlT_jUVPc"
-                title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-              >
-                <p class="video-caption">Aeropress recipe</p>
-              </iframe>
-              <iframe
-                width="480"
-                height="273"
-                name="French press recipe"
-                src="https://www.youtube.com/embed/st571DYYTR8"
-                title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-              ></iframe>
-            </div>
+          <h2 class="recipes__heading">Recipes</h2>
+          <h3 class="recipes__title">
+            Check out some recipes we've collected for your home-brewing
+            convenience
+          </h3>
+          <img
+            src="./images/background_recipes.svg"
+            alt="cafe image"
+            class="cafe__image"
+          />
+          <div class="videos">
+            <iframe
+              width="480"
+              height="273"
+              name="Aeropress recipe"
+              src="https://www.youtube.com/embed/j6VlT_jUVPc"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            >
+            </iframe>
+            <p class="video-caption">Aeropress recipe</p>
+            <iframe
+              width="480"
+              height="273"
+              name="French press recipe"
+              src="https://www.youtube.com/embed/st571DYYTR8"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+            <p class="video-caption">French press recipe</p>
           </div>
         </section>
         <section class="reservation" id="library-member">
@@ -156,29 +178,35 @@
                   name="name"
                   placeholder="Name Surname"
                 /><br /><br />
-                <label for="number">Number of guests *</label><br />
+                <label for="number">Number of guests *</label>
                 <input
                   type="number"
                   id="number"
                   name="number"
                   placeholder="1-8"
                 /><br /><br />
-                <label for="datetime-local">Date & time *</label><br />
+                <label for="datetime-local">Date & time *</label>
                 <input
                   type="datetime-local"
                   id="datetime-local"
                   name="datetime-local"
                 /><br /><br />
-                <label for="email">Your email *</label><br />
+                <label for="email">Your email *</label>
                 <input
                   type="email"
                   id="email"
                   name="email"
                   placeholder="email@email.com"
                 /><br /><br />
-                <input type="submit" value="Submit" /><br /><br />
-                <input type="checkbox" id="terms" name="terms" value="terms" />
-                <label for="terms">I agree with the terms of use</label><br />
+                <input form__button type="submit" value="Book a table" />
+                <input
+                  form__checkbox
+                  type="checkbox"
+                  id="terms"
+                  name="terms"
+                  value="terms"
+                />
+                <label for="terms">I agree with the terms of use</label>
               </form>
             </li>
           </ul>

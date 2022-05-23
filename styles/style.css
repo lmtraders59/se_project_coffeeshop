@@ -29,15 +29,11 @@
   list-style: none;
   margin: 0;
   padding: 0;
-  position: absolute;
-  top: 30px;
-  right: 80px;
 }
 
 .logo {
   width: 125px;
   height: 142px;
-  top: 30px;
 }
 
 .nav__link {
@@ -80,7 +76,7 @@
   position: absolute;
   display: flex;
   flex-direction: column;
-  top: 94x;
+  top: 94px;
   right: 5px;
   z-index: -1;
   width: 646px;
@@ -152,6 +148,7 @@
   font-family: Inter;
   font-style: normal;
   font-weight: 500;
+  margin-top: 100px;
 }
 
 .menu__subtitle {
@@ -202,6 +199,13 @@
   margin: 20px 0 0;
   font-size: 16px;
   line-height: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card__list-divider {
+  flex-grow: 1;
+  border-bottom: 1px solid black;
 }
 
 .card__footer {
@@ -214,14 +218,11 @@
 
 .recipes {
   padding: 100px 0 120px 80px;
-  align-items: start;
-  justify-content: space-between;
   box-sizing: border-box;
   background-color: #ffffff;
-}
-
-.events__content {
-  flex-basis: 580px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .recipes__heading {
@@ -255,14 +256,6 @@
   margin: 40px 0 60px;
 }
 
-.events__cover {
-  flex-grow: 1;
-  flex-shrink: 0;
-  flex-basis: 780px;
-  max-width: 780px;
-  position: relative;
-}
-
 .cafe__image {
   max-width: 100%;
   z-index: -1;
@@ -272,10 +265,11 @@
 }
 
 .videos {
-  text-align:center;
   width:100%;
   gap: 40px;
   display: flex;
+  align-self: center;
+  justify-content: center;
 }
 
 .video-caption {
@@ -283,6 +277,9 @@
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
+  display: flex;
+  align-self: flex-end;
+  gap: 20px;
 }
 
 .reservation {
@@ -333,6 +330,16 @@
 
 .step__description {
   margin: 10px 0 0;
+}
+
+.form__button {
+  border-radius: 4px;
+  height: 60px;
+  color: blue;
+}
+
+.form__checkbox {
+  border-radius: 2px;
 }
 
 .about {
