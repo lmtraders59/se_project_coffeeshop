@@ -96,16 +96,12 @@
   color: #6f6f6f;
   text-decoration: none;
   margin-left: 50px;
-  font-family: Noto Serif;
   font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
   line-height: 30px;
   max-width: 683px;
-}
-
-.header__link:hover {
-  color: #1f69c9;
+  font-family: Noto Serif;
+  font-weight: normal;
+  font-size: 20px;
 }
 
 .header__hours {
@@ -191,16 +187,23 @@
 .card__title {
   font-size: 20px;
   line-height: 30px;
-  font-weight: 700;
   margin: 0;
+  font-style: normal;
+  font-weight: normal;
+  font-family: Inter;
+  font-weight: bold;
 }
 
-.card__text {
+.card__list-item {
   margin: 20px 0 0;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 20px;
   display: flex;
   justify-content: space-between;
+  font-family: Noto Serif;
+  font-style: normal;
+  font-weight: normal;
+  white-space: normal; 
 }
 
 .card__list-divider {
@@ -280,6 +283,7 @@
   display: flex;
   align-self: flex-end;
   gap: 20px;
+  flex-grow: 1;
 }
 
 .reservation {
@@ -317,7 +321,8 @@
 .step {
   width: 220px;
   flex-basis: auto;
-}
+  max-width: 385px;
+}  
 
 .step__title {
   margin: 0;
@@ -340,6 +345,8 @@
 
 .form__checkbox {
   border-radius: 2px;
+  height: 20px;
+  width: 20px;
 }
 
 .about {
@@ -355,23 +362,32 @@
 
 .about__title {
   margin: 0;
-  font-size: 20px;
-  line-height: 30px;
+  font-size: 44px;
+  line-height: 52px;
   font-weight: 500;
   z-index: 1;
+  font-family: Inter;
+  font-style: normal;
+  max-width: 251px;
+  top: 100px;
+  left: 80px;
+
 }
 
 .about__content {
   font-size: 20px;
   line-height: 30px;
-  font-weight: 400;
   max-width: 660px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 32px;
+  justify-content: left;
+  gap: 20px;
   z-index: 1;
+  font-family: Noto Serif;
+  font-style: normal;
+  font-weight: normal;
+  top: 119px;
+  right: 80px;
 }
 
 .about__paragraph {
@@ -380,13 +396,13 @@
 
 .about__circle {
   background-color: #2f80ed;
-  width: 495px;
-  height: 495px;
+  width: 426px;
+  height: 426px;
   border-radius: 50%;
   position: absolute;
   overflow: hidden;
-  top: -121px;
-  left: -91px;
+  top: -152px;
+  left: -129px;
 }
 
 .footer {
