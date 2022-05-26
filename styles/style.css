@@ -126,10 +126,9 @@
   line-height: 20px;
   margin-bottom: 0;
 }
-}
 
 .header__address {
-  margin: 0;
+  bottom: 0;
   color: #838383;
   bottom: 40px;
   right: 80px;
@@ -317,10 +316,9 @@
   position: absolute;
   color: #2F80ED;
   background: #d9e7ff; url("../images/background_reservation.svg") no-repeat center/cover;
-
 }
 
-.membership__title {
+.reservation__title {
   max-width: 574px;
   margin: 0 auto;
   text-align: center;
@@ -331,7 +329,7 @@
   bottom: 80px;
 }
 
-.membership__steps {
+.reservation__form {
   list-style-type: none;
   padding: 0;
   margin: 100px 0 0;
@@ -340,11 +338,16 @@
   gap: 40px;
 }
 
-.step {
+.form__fieldset {
   width: 220px;
   flex-basis: auto;
   max-width: 385px;
 }  
+
+.form__label {
+  height: 60px;
+  width: 80px;
+}
 
 .step__title {
   margin: 0;
