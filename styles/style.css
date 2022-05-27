@@ -337,14 +337,39 @@
 }
 
 .form__fieldset {
-  width: 220px;
+  width: 385px;
   flex-basis: auto;
   max-width: 385px;
 }  
 
 .form__label {
   height: 60px;
-  width: 80px;
+  width: 100%;
+  top: 8px;
+  bottom: 32px;
+}
+
+.form__input {
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 32px;
+}
+
+.form__button {
+  margin-bottom: 32px;
+  width: 100%;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px
+}
+
+.form__checkbox {
+  display: flex;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
 }
 
 .step__title {

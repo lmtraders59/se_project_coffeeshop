@@ -32,7 +32,7 @@
             </li>
           </ul>
         </div>
-        <h1 class="header__title">
+        <h1 class="header__description">
           Specialty coffee
           <span style="color: black">in the Practicum Library</span>
         </h1>
@@ -211,66 +211,23 @@
           <ul class="reservation__form">
             <li class="form__fieldset">
               <form>
-                <div class="form__label">
-                  <label for="form__label">Name:</label>
-                </div>
-                <div class="form__input">
-                  <input
-                    type="text"
-                    id="name"
-                    name="name"
-                    placeholder="Name Surname"
-                  />
-                </div>
-                <div class="form__label">
-                  <label for="form__label">Number of guests *</label>
-                </div>
-                <div class="form__input">
-                  <input
-                    type="number"
-                    id="number"
-                    name="number"
-                    placeholder="1-8"
-                  />
-                </div>
-                <div class="form__label">
-                  <label for="form__label">Date & time *</label>
-                </div>
-                <div class="form__input">
-                  <input
-                    type="datetime-local"
-                    id="datetime-local"
-                    name="datetime-local"
-                  />
-                </div>
-                <div class="form__label">
-                  <label for="form__label">Your email *</label>
-                </div>
-                <div class="form__input">
-                  <input
-                    type="email"
-                    id="email"
-                    name="email"
-                    placeholder="email@email.com"
-                  />
-                </div>
-                <div class="form__button">
-                  <button type="form__button" form="form1" value="Book a table">
-                    Book a table
-                  </button>
-                </div>
-                <div class="form__input">
-                  <input
-                    form__checkbox
-                    type="checkbox"
-                    id="terms"
-                    name="terms"
-                    value="terms"
-                  />
-                </div>
-                <div class="form__label">
-                  <label for="form__label">I agree with the terms of use</label>
-                </div>
+                <label for="form__label">Name:</label>
+                <input class="form__input type="text" id="name" name="name"
+                placeholder="Name Surname" />
+                <label for="form__label">Number of guests *</label>
+                <input class="form__input type="number" id="number"
+                name="number" placeholder="1-8" />
+                <label for="form__label">Date & time *</label>
+                <input class="form__input type="datetime-local"
+                id="datetime-local" name="datetime-local" />
+                <label for="form__label">Your email *</label>
+                <input class="form__input type="email" id="email" name="email"
+                placeholder="email@email.com" />
+                <button class="form__button" form="form1" value="Book a table">
+                  Book a table
+                </button>
+                <input class="form__input form__checkbox type="checkbox"
+                id="terms" name="terms" value="terms" />I agree with the terms of use</label>
               </form>
             </li>
           </ul>
