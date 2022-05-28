@@ -326,7 +326,7 @@ page {
   font-size: 44px;
   font-weight: 500;
   line-height: 52px;
-  top: 100px;
+  margin-top: 100px;
   bottom: 80px;
 }
 
@@ -380,11 +380,17 @@ page {
 }
 
 .form__checkbox {
-  display: flex;
+  display: block;
   justify-content: center;
   border-radius: 2px;
   width: 20px;
   height: 20px;
+}
+
+.form__checkbox-label {
+  display: flex;
+  gap: 12px; 
+  margin-bottom: 120px;
 }
 
 .step__title {
