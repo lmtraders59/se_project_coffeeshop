@@ -219,20 +219,20 @@
             <li class="form__fieldset">
               <form>
                 <label for="form__label">Name:</label>
-                <input class="form__input type="text" id="name" name="name"
-                placeholder="Name Surname" />
+                <input class="form__input" type="text" 
+                placeholder="Name Surname" required />
                 <label for="form__label">Number of guests *</label>
-                <input class="form__input type="number" id="number"
-                name="number" placeholder="1-8" />
+                <input class="form__input" type="number"
+                min="1"
+                max="8"
+                placeholder="1-8" />
                 <label for="form__label">Date & time *</label>
-                <input class="form__input type="datetime-local"
+                <input class="form__input" type="datetime-local" required 
                 id="datetime-local" name="datetime-local" />
                 <label for="form__label">Your email *</label>
-                <input class="form__input type="email" id="email" name="email"
+                <input class="form__input" type="email" id="email" required 
                 placeholder="email@email.com" />
-                <button class="form__button" form="form1" value="Book a table">
-                  Book a table
-                </button>
+                <button class="form__button">Book a table</button>
                 <input class="form__checkbox" type="checkbox" required />
                    <p> I agree with the terms of use</label</p>
               </form>
