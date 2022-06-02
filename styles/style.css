@@ -31,6 +31,7 @@ page {
   margin: 0;
   padding: 0;
   margin-right: 80px;
+  margin-top: 30px;
 }
 
 .logo {
@@ -48,6 +49,13 @@ page {
   line-height: 20px;
   list-style: none;
 }
+.nav__links {
+  display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: flex-end;
+    column-gap: 20px;
+}
 
 .nav__link:hover {
   color: #1f69c9;
@@ -60,11 +68,14 @@ page {
   max-width: 729px;
   font-family: 'Inter', sans-serif;
   font-style: italic;
-  color: #2f80ed;
   font-family: 'Noto Serif', serif
   font-style: italic;
   font-weight: normal;
   font-weight: 500;
+}
+
+.header__span {
+  color: #2f80ed;
 }
 
 .header__description {
@@ -170,7 +181,7 @@ page {
 
 .menu__cards {
   list-style: none;
-  padding: 0;
+  margin: 0;
   max-width: 760px;
   margin: 68px auto 0;
   display: flex;
