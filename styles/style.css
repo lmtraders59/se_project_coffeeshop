@@ -39,7 +39,7 @@ page {
   width: 125px;
   height: 142px;
   margin-top: -30px;
-  margin-left: -30px;
+  margin-left: -50px;
 }
 
 .nav__link {
@@ -69,15 +69,14 @@ page {
   line-height: 72px;
   max-width: 729px;
   font-family: 'Inter', sans-serif;
-  font-style: italic;
-  font-family: 'Noto Serif', serif
-  font-style: italic;
   font-weight: normal;
   font-weight: 500;
 }
 
 .header__span {
   color: #2f80ed;
+  font-family: 'Noto Serif', serif;
+  font-style: italic;
 }
 
 .header__description {
