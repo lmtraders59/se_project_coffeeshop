@@ -18,12 +18,6 @@
   background: #fff url("../images/background_header.svg") no-repeat center/cover;
 }
 
-.wrapper {
-  display: flex;
-  justify-content: space-between;
-
-}
-
 .nav {
   display: flex;
   flex-direction: column-reverse;
@@ -68,7 +62,7 @@
   font-size: 60px;
   line-height: 72px;
   max-width: 729px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", Arial, sans-serif;
   font-weight: normal;
   font-weight: 500;
 }
@@ -272,25 +266,6 @@
   line-height: 30px
 }
 
-.event-info__text {
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 30px;
-  margin: 0;
-}
-
-.events__description {
-  margin: 40px 0 60px;
-}
-
-.cafe__image {
-  max-width: 100%;
-  z-index: -1;
-  position: absolute;
-  color: #2F80ED;
-
-}
-
 .videos {
   width:100%;
   gap: 40px;
@@ -397,19 +372,6 @@
   display: flex;
   gap: 12px; 
   margin-bottom: 120px;
-}
-
-.step__title {
-  margin: 0;
-  font-size: 20px;
-  line-height: 30px;
-  font-weight: 700;
-  display: flex;
-  align-items: center;
-}
-
-.step__description {
-  margin: 10px 0 0;
 }
 
 .about {
@@ -532,7 +494,6 @@
 
 .footer__column-heading {
   margin-bottom: 20px;
-  
   margin-top: 0;
   color: white;
   font-size: 18px;
