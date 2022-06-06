@@ -4,8 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Practicum Library</title>
-    <link rel="stylesheet" href="./styles/normalize.css" />
-    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./pages/index.css" />
     <link rel="ico" href="./favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -23,7 +22,7 @@
             alt="Specialty Coffee in Practicum Library Logo"
             class="logo"
           />
-          <div class=" nav__links"
+          <ul class="nav__links">
             <li>
               <a class="nav__link" href="#menu">Menu</a>
             </li>
@@ -36,12 +35,12 @@
             <li>
               <a class="nav__link" href="#footer">Contacts</a>
             </li>
-          </div>
+          </ul>
         </nav>
-        <h1 class="header__title">
+        <div class="header__title">
           <span class="header__span">Specialty coffee</span>
-          <div>in the Practicum Library</div>
-        </h1>
+          <span style="display: block">in the Practicum Library</span>
+        </div>
         <p class="header__description">
           Welcome to our study zone! We've got the coffee to energize you and
           the cozy vibes to help you get creative.
@@ -70,7 +69,7 @@
             use biodegradable cups. All teas from our collection are $2 cup.
           </p>
           <div class="menu__cards">
-            <li class="card">
+            <div class="card">
               <div class="card__content">
                 <h3 class="card__title">Filter</h3>
                 <p class="card__list-item">
@@ -100,8 +99,8 @@
                 </p>
                 <p class="card__footer"></p>
               </div>
-            </li>
-            <li class="card">
+            </div>
+            <div class="card">
               <div class="card__content">
                 <h3 class="card__title">Expresso</h3>
                 <p class="card__list-item">
@@ -126,8 +125,8 @@
                 </p>
                 <p class="card__footer"></p>
               </div>
-            </li>
-            <li class="card">
+            </div>
+            <div class="card">
               <div class="card__content">
                 <h3 class="card__title">Baked Goods</h3>
                 <p class="card__list-item">
@@ -162,7 +161,7 @@
                 </p>
                 <p class="card__footer"></p>
               </div>
-            </li>
+            </div>
           </div>
         </section>
         <section class="recipes" id="recipes">
@@ -205,25 +204,19 @@
             </div>
           </div>
         </section>
-        <section class="reservation" id="bookatable" style="background: url('./images/background_reservation.svg') center center no-repeat;">   
-          <!-- <img
-            src="./images/background_reservation.svg"
-            alt="reservation image"
-            class="reservation__image"
-            style="background-size: cover;"
-          /> -->
+        <section class="reservation" id="bookatable">
           <h2 class="reservation__title">Book a table</h2>
           <ul class="reservation__form">
             <li class="form__fieldset">
               <form>
-                <label for="form__label">Name:</label>,cover
+                <label class="form__label">Name:</label>
                 <input
                   class="form__input"
                   type="text"
                   placeholder="Name Surname"
                   required
                 />
-                <label for="form__label">Number of guests *</label>
+                <label class="form__label">Number of guests *</label>
                 <input
                   class="form__input"
                   type="number"
@@ -231,7 +224,7 @@
                   max="8"
                   placeholder="1-8"
                 />
-                <label for="form__label">Date & time *</label>
+                <label class="form__label">Date & time *</label>
                 <input
                   class="form__input"
                   type="datetime-local"
@@ -239,7 +232,7 @@
                   id="datetime-local"
                   name="datetime-local"
                 />
-                <label for="form__label">Your email *</label>
+                <label class="form__label">Your email *</label>
                 <input
                   class="form__input"
                   type="email"
@@ -247,10 +240,14 @@
                   required
                   placeholder="email@email.com"
                 />
-                <button class="form__button" style="border: none;">Book a table</button>
+                <button class="form__button" style="border: none">
+                  Book a table
+                </button>
                 <div class="form__checkbox-label">
                   <input class="form__checkbox" type="checkbox" required />
-                  <label for="form__label">I agree with the terms of use</label>
+                  <label class="form__label"
+                    >I agree with the terms of use</label
+                  >
                 </div>
               </form>
             </li>

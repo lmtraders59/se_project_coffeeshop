@@ -1,14 +1,8 @@
 .reservation {
   padding-top: 100px;
   padding-bottom: 140px;
-}
-
-.reservation__image {
-  max-width: 100%;
-  z-index: -1;
-  position: absolute;
-  color: #2F80ED;
-  background: #d9e7ff; url("../images/background_reservation.svg") no-repeat center/cover;
+  background: url("../images/background_reservation.svg") no-repeat center/cover;
+  background-color: #d9e7ff;
 }
 
 .reservation__title {

@@ -64,6 +64,8 @@
 .footer__social-icon {
   width: 16px;
   height: 16px;
+  position: relative;
+  top: 2px;
 }
 
 .footer__copyright {

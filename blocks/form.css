@@ -1,4 +1,3 @@
-
 .form__fieldset {
   width: 385px;
   flex-basis: auto;
@@ -17,6 +16,7 @@
   height: 50px;
   box-sizing: border-box;
   margin-bottom: 32px;
+  padding: 0 12px;
 }
 
 .form__button {
