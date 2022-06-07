@@ -170,8 +170,11 @@
             Check out some recipes we've collected for your home-brewing
             convenience
           </h3>
-          <div class="videos">
-            <div class="iframe__videos">
+          <!-- videos -->
+          <ul class="recipes__videos">
+            <!-- iframe__videos -->
+            <li class="recipes__video-item">
+              <!-- before iframe had no class, and the styles were written for the tag, not for the class -->
               <iframe
                 width="480"
                 height="273"
@@ -180,14 +183,15 @@
                 title="YouTube video player"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen
+                class="recipes__iframe"
               >
               </iframe>
               <p class="video-caption">
                 <span>Aeropress recipe </span>
                 <span>~5 min</span>
               </p>
-            </div>
-            <div class="iframe__videos">
+            </li>
+            <li class="recipes__video-item">
               <iframe
                 width="480"
                 height="273"
@@ -196,13 +200,14 @@
                 title="YouTube video player"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen
+                class="recipes__iframe"
               ></iframe>
               <p class="video-caption">
                 <span>French press recipe</span>
                 <span>~15 min</span>
               </p>
-            </div>
-          </div>
+            </li>
+          </ul>
         </section>
         <section class="reservation" id="bookatable">
           <h2 class="reservation__title">Book a table</h2>

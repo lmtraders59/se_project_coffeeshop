@@ -33,7 +33,7 @@
   font-weight: normal;
 }
 
-.videos {
+.recipes__videos {
   width: 100%;
   gap: 40px;
   display: flex;
@@ -41,8 +41,9 @@
   justify-content: center;
 }
 
-.iframe {
+.recipes__video-item {
   border: none;
+  list-style: none;
 }
 
 .video-caption {
