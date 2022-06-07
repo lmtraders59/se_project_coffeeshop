@@ -129,10 +129,10 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
-  margin-bottom: 0;
+  bottom: 40px;
 }
 
-.header__address {
+.header__paragraph-address {
   bottom: 0;
   color: #838383;
   bottom: 40px;
