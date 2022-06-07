@@ -20,7 +20,6 @@
   max-width: 251px;
   top: 100px;
   left: 80px;
-
 }
 
 .about__content {
@@ -31,7 +30,7 @@
   flex-direction: column;
   justify-content: left;
   z-index: 1;
-  font-family: 'Noto Serif', serif
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;
   font-weight: normal;
   top: 119px;

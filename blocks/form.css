@@ -2,7 +2,7 @@
   width: 385px;
   flex-basis: auto;
   max-width: 385px;
-}  
+}
 
 .form__label {
   height: 60px;
@@ -30,13 +30,12 @@
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
-  line-height: 20px
+  line-height: 20px;
   opacity: 100%;
   transition-property: opacity;
   transition-duration: 1s;
   transition-timing-function: linear;
   border-radius: 4px;
-
 }
 
 .form__checkbox {
@@ -49,6 +48,6 @@
 
 .form__checkbox-label {
   display: flex;
-  gap: 12px; 
+  gap: 12px;
   margin-bottom: 120px;
 }
