@@ -48,10 +48,10 @@
 }
 .nav__links {
   display: flex;
-    align-items: center;
-    width: 100%;
-    justify-content: flex-end;
-    column-gap: 20px;
+  align-items: center;
+  width: 100%;
+  justify-content: flex-end;
+  column-gap: 20px;
 }
 
 .nav__link:hover {
@@ -144,8 +144,9 @@
   line-height: 20px;
 }
 
-.menu{
-  background: #0a2750 url("../images/background_menu.svg") no-repeat center/cover;
+.menu {
+  background: #0a2750 url("../images/background_menu.svg") no-repeat
+    center/cover;
 }
 
 .menu__title {
@@ -169,7 +170,6 @@
   line-height: 30px;
   color: #fff;
   width: 683px;
-  
 }
 
 .menu__cards {
@@ -214,12 +214,12 @@
   font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;
   font-weight: normal;
-  white-space: normal; 
+  white-space: normal;
 }
 
 .card__list-divider {
   flex-grow: 1;
-  border-bottom: 1px solid #fff;;
+  border-bottom: 1px solid #fff;
 }
 
 .card__footer {
@@ -237,7 +237,8 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  background: #FFFFFF url("../images/background_recipes.svg") no-repeat center/cover;
+  background: #ffffff url("../images/background_recipes.svg") no-repeat
+    center/cover;
 }
 
 .recipes__heading {
@@ -249,7 +250,7 @@
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-size: 44px;
-  line-height: 52px
+  line-height: 52px;
 }
 
 .recipes__title {
@@ -263,11 +264,11 @@
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
-  line-height: 30px
+  line-height: 30px;
 }
 
 .videos {
-  width:100%;
+  width: 100%;
   gap: 40px;
   display: flex;
   align-self: center;
@@ -285,7 +286,7 @@
   flex-grow: 1;
   line-height: 30px;
   justify-content: space-between;
-}  
+}
 
 .reservation {
   padding-top: 100px;
@@ -318,7 +319,7 @@
   width: 385px;
   flex-basis: auto;
   max-width: 385px;
-}  
+}
 
 .form__label {
   height: 60px;
@@ -345,13 +346,12 @@
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
-  line-height: 20px
+  line-height: 20px;
   opacity: 100%;
   transition-property: opacity;
   transition-duration: 1s;
   transition-timing-function: linear;
   border-radius: 4px;
-
 }
 
 .form__checkbox {
@@ -364,7 +364,7 @@
 
 .form__checkbox-label {
   display: flex;
-  gap: 12px; 
+  gap: 12px;
   margin-bottom: 120px;
 }
 
@@ -390,7 +390,6 @@
   max-width: 251px;
   top: 100px;
   left: 80px;
-
 }
 
 .about__content {
