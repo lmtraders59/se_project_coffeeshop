@@ -56,7 +56,7 @@
   color: #6f6f6f;
   position: absolute;
   left: 0;
-  padding: 40px 80px 0;
+  padding: 0 80px 0;
 }
 
 .header__link {
@@ -89,8 +89,8 @@
 .header__paragraph-address {
   color: #838383;
   padding-top: 120px;
-  bottom: 40px;
-  right: 80px;
+  margin-block-end: 40px;
+  margin-right: 80px;
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
