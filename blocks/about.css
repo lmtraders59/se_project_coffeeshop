@@ -42,6 +42,10 @@
   margin-bottom: 20px;
 }
 
+.about__paragraph:last-of-type {
+  margin-bottom: 0;
+}
+
 .about__circle {
   background-color: #2f80ed;
   width: 426px;
