@@ -37,6 +37,7 @@
   max-width: 683px;
   padding-left: 50px;
 }
+
 .header__image {
   position: absolute;
   display: flex;
@@ -46,7 +47,9 @@
   width: 646px;
   height: 568px;
   border-radius: 70%;
+  z-index: -1;
 }
+
 .header__footer {
   width: 100%;
   display: flex;
